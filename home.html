@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Q-Clouds</title>
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="homestyle.css" />
+</head>
+
+<body>
+    <section id="navbar" class="nav_section">
+        <!---------------------- WARNING SECTION ---------------------->
+        <div class="row">
+            <div class="col-log-12">
+                <div class="warning fixed-top">
+                    <h3 class="warning-text">
+                        Warning: This product contains nicotine. Nicotine is an
+                        addictive chemical.
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR SECTION -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="q-logo" src="/images/logo.png" alt="logo" />Q-Clouds
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Starter Kits</a></li>
+                                <li><a class="dropdown-item" href="#">Vape Juice</a></li>
+                                <li><a class="dropdown-item" href="#">Tanks</a></li>
+                                <li><a class="dropdown-item" href="#">Parts</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!---------------------- FEATURED SECTION ----------------------->
+    <section id="featured" class="featured_products">
+        <div class="container-fluid">
+            <h1>Featured Product</h1>
+            <div class="row">
+                <div class="pricing-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="card shadow-sm">
+                        <div class="card-header">
+                            <h3>MODS/KITS</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="/images/featured1.jpg" alt="mod%kits">
+                            <div class="d-grid gap-2">
+                                <p class="featured-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="card shadow-sm">
+                        <div class="card-header">
+                            <h3>POD SYSTEM</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="/images/featured2.jpg" alt="PodSystem">
+                            <div class="d-grid gap-2">
+                                <p class="featured-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="card shadow-sm">
+                        <div class="card-header">
+                            <h3>E-JUICE</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="/images/featured3.jpg" alt="PodSystem">
+                            <div class="d-grid gap-2">
+                                <p class="featured-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="card shadow-sm">
+                        <div class="card-header">
+                            <h3>ATOMIZER</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="/images/featured4.jpg" alt="PodSystem">
+                            <div class="d-grid gap-2">
+                                <p class="featured-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------- KITS SECTION ----------------------->
+    <!--------------------- MOD KITS SECTION ---------------------->
+    <section id="starter" class="featured_products">
+        <h1 class="mod-heading">Mod Starter Kits</h1>
+        <div id="mod-carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <div class="row">
+                        <div class="pricing-column-mod col-lg-3 col-md-6 col-sm-12">
+
+                        </div>
+
+                        <div class="pricing-column-mod col-lg-3 col-md-6 col-sm-12">
+                            <div class="card shadow-lg">
+                                <div class="mod-card-body">
+                                    <img class="modkitfirst-img" src="/images/product/sample1.jpg" alt="mod%kits">
+                                    <div class="d-grid">
+                                        <p class="starter-text">
+                                        <h4>SAMPLE1</h4> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="pricing-column-mod col-lg-3 col-md-6 col-sm-12">
+                            <div class="card shadow-lg">
+                                <div class="mod-card-body">
+                                    <img class="modkitfirst-img" src="/images/product/sample3.jpg" alt="PodSystem">
+                                    <div class="d-grid">
+                                        <p class="starter-text">
+                                        <h4>SAMPLE2</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-column-mod col-lg-3 col-md-6 col-sm-12">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <div class="row">
+                        <div class="pricing-column-mod col-lg-3 col-md-6 col-sm-12">
+                            <!--  -->
+                        </div>
+
+                        <div class="pricing-column-mod col-lg-3 col-md-6 col-sm-12">
+                            <div class="card shadow-lg">
+                                <div class="mod-card-body">
+                                    <img class="modkitfirst-img" src="/images/product/sample3.jpg" alt="mod%kits">
+                                    <div class="d-grid">
+                                        <p class="starter-text">
+                                        <h4>SAMPLE3</h4> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pricing-column-mod col-lg-3 col-md-6 col-sm-12">
+                            <div class="card shadow-lg">
+                                <div class="mod-card-body">
+                                    <img class="modkitfirst-img" src="/images/product/sample4.jpg" alt="PodSystem">
+                                    <div class="d-grid">
+                                        <p class="starter-text">
+                                        <h4>SAMPLE4</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pricing-column-mod col-lg-3 col-md-6 col-sm-12">
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mod-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mod-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!---------------------- POD KITS SECTION ----------------------->
+    <section id="starter" class="featured_products">
+        <div class="container-fluid">
+            <h1 class="pod-heading">Pod Starter Kits</h1>
+            <div class="row">
+                <div class="pricing-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="modkit-img" src="/images/product/sample1.jpg" alt="mod%kits">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="modkit-img" src="/images/product/sample2.jpg" alt="PodSystem">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="modkit-img" src="/images/product/sample3.jpg" alt="PodSystem">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="modkit-img" src="/images/product/sample4.jpg" alt="PodSystem">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------- END OF KITS SECTION --------------------->
+
+    <!---------------------- VAPE JUICE ----------------------->
+    <section id="e-juice" class="featured_products">
+        <div class="container-fluid">
+            <h1 class="ejuice-heading">Vape Juice</h1>
+            <div class="row">
+                <div class="pricing-column col-lg-2">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="juice-img" src="/images/product/sample1.jpg" alt="mod%kits">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-2">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="juice-img" src="/images/product/sample2.jpg" alt="PodSystem">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-2">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="juice-img" src="/images/product/sample3.jpg" alt="PodSystem">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-2">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="juice-img" src="/images/product/sample4.jpg" alt="PodSystem">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-2">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="juice-img" src="/images/product/sample4.jpg" alt="PodSystem">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-2">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img class="juice-img" src="/images/product/sample4.jpg" alt="PodSystem">
+                            <div class="d-grid">
+                                <p class="starter-text">
+                                <h4>Lorem</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+/* FRONT SECTION */
+.front_section {
+	padding: 9.5% 10%;
+	background-image: url(images/bg.jpg);
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.front-heading {
+	font-family: "Luckiest Guy", cursive;
+	font-size: 6rem;
+	text-align: center;
+	margin-top: 25%;
+	color: black;
+	text-shadow: 1px -1px 15px rgba(73, 255, 234, 0.79);
+}
+.oneline {
+	margin-top: 35%;
+}
+.front-sec-btn {
+	text-align: center;
+}
+.btn {
+	color: #c6ff00;
+}
+.btn:hover {
+	color: #00ffff;
+}

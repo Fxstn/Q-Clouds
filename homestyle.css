@@ -1,0 +1,95 @@
+body {
+	background-color: #e6eaec;
+}
+/* WARNING SECTION */
+.warning {
+	padding: 10px 5px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.warning-text {
+	font-size: 20px;
+}
+/* NAVBAR SECTION */
+.navbar {
+	margin-top: 3%;
+	padding: 0.3% 8%;
+	background-color: #e6eaec;
+}
+.navbar-brand {
+	margin-right: 0;
+}
+.q-logo {
+	margin: 0 1% 0;
+	width: 7%;
+}
+
+.nav-link {
+	margin-left: 20px;
+}
+
+/* FEATURED SECTION */
+img {
+	width: 80%;
+}
+#featured .container-fluid {
+	padding: 10% 6% 5%;
+	text-align: center;
+}
+.pricing-column {
+	margin-top: 30px;
+}
+.featured-text {
+	margin-top: 10px;
+}
+
+/* STARTER KITS SECTION */
+.modkitfirst-img {
+	margin-top: 50px;
+	width: 80%;
+}
+
+#starter .container-fluid {
+	padding: 1% 5%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.pricing-column {
+	margin-top: 30px;
+}
+.starter-text {
+	margin-top: 10px;
+}
+
+.pricing-column-mod {
+	margin-top: 30px;
+}
+
+.mod-heading,
+.pod-heading,
+.ejuice-heading {
+	margin-top: 5%;
+	text-align: center;
+}
+
+/* VAPE JUICE */
+#e-juice .container-fluid {
+	padding: 1% 5%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.juice-img {
+	margin-top: 10px;
+	width: 80%;
+}
+@media (max-width: 992px) {
+	.warning-text {
+		padding: 5px 70px;
+		font-size: 1rem;
+		line-height: 2;
+	}
+	.navbar {
+		margin-top: 7%;
+	}
+}
