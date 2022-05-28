@@ -6,6 +6,7 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	position: relative;
 }
 .front-heading {
 	font-family: "Luckiest Guy", cursive;
@@ -26,4 +27,7 @@
 }
 .btn:hover {
 	color: #00ffff;
+}
+.q-clouds-img {
+	margin-left: 15%;
 }
